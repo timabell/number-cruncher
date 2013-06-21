@@ -1,6 +1,6 @@
 using System;
 
-namespace numbercruncher.git
+namespace uk.co.timwise.NumberCruncher
 {
 	class MainClass
 	{

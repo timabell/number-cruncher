@@ -1,14 +1,23 @@
 using System;
 using NUnit.Framework;
 
-namespace numbercruncher.git
+namespace uk.co.timwise.NumberCruncher
 {
 	[TestFixture()]
 	public class CruncherTests
 	{
-		[Test()]
-		public void TestCase ()
+		[TestCase(1, "one")]
+		[TestCase(21, "twenty one")]
+		[TestCase(105, "one hundred and five")]
+		[TestCase(56,945,781, "fifty six million nine hundred and forty five thousand seven hundred and eighty one")]
+		public void TestCruncherMapping (int number, string expectedEnglish)
 		{
+			// arrange
+			var cruncher = new NumberCruncher(number);
+			// act
+			var actualEnglish = cruncher.ToString();
+			// assert
+			Assert.AreEqual(expectedEnglish, actualEnglish);
 		}
 	}
 }

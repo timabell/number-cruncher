@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{5E444D00-2E9C-46FF-9D3D-C420397431BC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>numbercruncher.git</RootNamespace>
+    <RootNamespace>uk.co.timwise.NumberCruncher</RootNamespace>
     <AssemblyName>number-cruncher.git</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
