@@ -9,7 +9,7 @@ namespace uk.co.timwise.NumberCruncher
 		[TestCase(1, "one")]
 		[TestCase(21, "twenty one")]
 		[TestCase(105, "one hundred and five")]
-		[TestCase(56,945,781, "fifty six million nine hundred and forty five thousand seven hundred and eighty one")]
+		[TestCase(56945781, "fifty six million nine hundred and forty five thousand seven hundred and eighty one")]
 		public void TestCruncherMapping (int number, string expectedEnglish)
 		{
 			// arrange
