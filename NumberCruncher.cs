@@ -1,4 +1,5 @@
 using System;
+using System.Text;
 
 namespace uk.co.timwise.NumberCruncher
 {
@@ -13,7 +14,9 @@ namespace uk.co.timwise.NumberCruncher
 		
 		public override string ToString ()
 		{
-			return string.Format ("[NumberCruncher]");
+			var english = new StringBuilder();
+			english.Append(number);
+			return english.ToString();
 		}
 	}
 }
