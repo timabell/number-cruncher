@@ -60,7 +60,7 @@ namespace uk.co.timwise.NumberCruncher
 		        {
 		            words += tensMap[number / 10];
 		            if ((number % 10) > 0)
-		                words += "-" + unitsMap[number % 10];
+		                words += " " + unitsMap[number % 10];
 		        }
 		    }
 		
