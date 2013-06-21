@@ -6,9 +6,9 @@ namespace uk.co.timwise.NumberCruncher
 	/// <summary>
 	/// Number cruncher.
 	/// </summary>
-	/// I would add an interface to this but it's too simple to be useful.
+	/// I would add an interface to this but it's too simple to be useful at the moment.
 	/// I would add dependency injection, but it doesn't depend on anything.
-	public class NumberCruncher
+	public class NumberCruncher // could implement something like this : INumberTranslator
 	{
 		long number;
 
