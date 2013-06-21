@@ -3,6 +3,11 @@ using System.Text;
 
 namespace uk.co.timwise.NumberCruncher
 {
+	/// <summary>
+	/// Number cruncher.
+	/// </summary>
+	/// I would add an interface to this but it's too simple to be useful.
+	/// I would add dependency injection, but it doesn't depend on anything.
 	public class NumberCruncher
 	{
 		int number;
