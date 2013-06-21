@@ -9,8 +9,8 @@ namespace uk.co.timwise.NumberCruncher
 			while (true){
 				Console.Write("Enter digits: ");
 				var input = Console.ReadLine();
-				int number = 0;
-				if (!int.TryParse(input, number)) {
+				long number = 0;
+				if (!long.TryParse(input, out number)) {
 					Console.WriteLine("not a valid number");
 					continue;
 				}

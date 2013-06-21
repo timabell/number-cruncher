@@ -10,9 +10,9 @@ namespace uk.co.timwise.NumberCruncher
 	/// I would add dependency injection, but it doesn't depend on anything.
 	public class NumberCruncher
 	{
-		int number;
+		long number;
 
-		public NumberCruncher (int number)
+		public NumberCruncher (long number)
 		{
 			this.number = number;
 		}
@@ -23,7 +23,7 @@ namespace uk.co.timwise.NumberCruncher
 		}
 		
 		// sourced from http://stackoverflow.com/a/2730393/10245 because I'm not a fan of tedious repetition of already solved problems.
-		private string NumberToWords(int number)
+		private string NumberToWords(long number)
 		{
 		    if (number == 0)
 		        return "zero";
