@@ -3,3 +3,4 @@ obj
 *.userprefs
 *.pidb
 test-results
+TestResult.xml
