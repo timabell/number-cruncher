@@ -4,3 +4,4 @@ obj
 *.pidb
 test-results
 TestResult.xml
+nunit-project.VisualState.xml
